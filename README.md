@@ -33,7 +33,7 @@ https://gourav4222f.github.io/Minesweeper_game/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/minesweeper.git
+   git clone https://github.com/gourav4222f/minesweeper_game.git
    ```
 2. Navigate to the project directory:
    ```bash
