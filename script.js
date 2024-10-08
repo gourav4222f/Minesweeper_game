@@ -1,7 +1,7 @@
 import { checkwin, checklose, revealTile, TILE_STATUSES, createBoard, markTile } from "./Minesweeper.js"
 
-const BOARD_SIZE = window.innerWidth <= 600 ? 10 : 15;
-const NUMBER_OF_MINES =  window.innerWidth <= 600 ? 7 : 15;
+const BOARD_SIZE = window.innerWidth <= 600 ? 7 : 7;
+const NUMBER_OF_MINES =  window.innerWidth <= 600 ? 7 : 7;
 
 const board = createBoard(BOARD_SIZE, NUMBER_OF_MINES); // Consistent spacing
 const boardElement = document.querySelector(".board");
